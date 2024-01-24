@@ -1,0 +1,46 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting datasets
+  Downloading datasets-2.16.1-py3-none-any.whl (507 kB)
+Requirement already satisfied: pandas in c:\anaconda3\lib\site-packages (from datasets) (1.4.2)
+Collecting pyarrow-hotfix
+  Downloading pyarrow_hotfix-0.6-py3-none-any.whl (7.9 kB)
+Requirement already satisfied: aiohttp in c:\anaconda3\lib\site-packages (from datasets) (3.8.1)
+Collecting multiprocess
+  Downloading multiprocess-0.70.15-py39-none-any.whl (133 kB)
+Collecting fsspec[http]<=2023.10.0,>=2023.1.0
+  Downloading fsspec-2023.10.0-py3-none-any.whl (166 kB)
+Collecting huggingface-hub>=0.19.4
+  Downloading huggingface_hub-0.20.3-py3-none-any.whl (330 kB)
+Requirement already satisfied: numpy>=1.17 in c:\anaconda3\lib\site-packages (from datasets) (1.21.5)
+Collecting xxhash
+  Downloading xxhash-3.4.1-cp39-cp39-win_amd64.whl (29 kB)
+Requirement already satisfied: tqdm>=4.62.1 in c:\anaconda3\lib\site-packages (from datasets) (4.64.0)
+Requirement already satisfied: pyyaml>=5.1 in c:\anaconda3\lib\site-packages (from datasets) (6.0)
+Requirement already satisfied: packaging in c:\anaconda3\lib\site-packages (from datasets) (21.3)
+Requirement already satisfied: filelock in c:\users\지완\appdata\roaming\python\python39\site-packages (from datasets) (3.12.4)
+Requirement already satisfied: requests>=2.19.0 in c:\anaconda3\lib\site-packages (from datasets) (2.27.1)
+Collecting dill<0.3.8,>=0.3.0
+  Downloading dill-0.3.7-py3-none-any.whl (115 kB)
+Requirement already satisfied: pyarrow>=8.0.0 in c:\users\지완\appdata\roaming\python\python39\site-packages (from datasets) (12.0.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (5.1.0)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (1.2.0)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (1.2.0)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (1.6.3)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (4.0.1)
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (2.0.4)
+Requirement already satisfied: attrs>=17.3.0 in c:\anaconda3\lib\site-packages (from aiohttp->datasets) (21.4.0)
+Requirement already satisfied: typing-extensions>=3.6.5 in c:\anaconda3\lib\site-packages (from async-timeout<5.0,>=4.0.0a3->aiohttp->datasets) (4.1.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in c:\anaconda3\lib\site-packages (from packaging->datasets) (3.0.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\anaconda3\lib\site-packages (from requests>=2.19.0->datasets) (1.26.9)
+Requirement already satisfied: idna<4,>=2.5 in c:\anaconda3\lib\site-packages (from requests>=2.19.0->datasets) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\anaconda3\lib\site-packages (from requests>=2.19.0->datasets) (2021.10.8)
+Requirement already satisfied: colorama in c:\anaconda3\lib\site-packages (from tqdm>=4.62.1->datasets) (0.4.4)
+Requirement already satisfied: python-dateutil>=2.8.1 in c:\anaconda3\lib\site-packages (from pandas->datasets) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in c:\anaconda3\lib\site-packages (from pandas->datasets) (2021.3)
+Requirement already satisfied: six>=1.5 in c:\anaconda3\lib\site-packages (from python-dateutil>=2.8.1->pandas->datasets) (1.16.0)
+Installing collected packages: fsspec, dill, xxhash, pyarrow-hotfix, multiprocess, huggingface-hub, datasets
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.14.1
+    Uninstalling huggingface-hub-0.14.1:
+      Successfully uninstalled huggingface-hub-0.14.1
+Successfully installed datasets-2.16.1 dill-0.3.7 fsspec-2023.10.0 huggingface-hub-0.20.3 multiprocess-0.70.15 pyarrow-hotfix-0.6 xxhash-3.4.1
