@@ -1,4 +1,4 @@
-# My Own RasberryPI AI speaker
+## My Own RasberryPI AI speaker
 라즈베리 파이를 이용한 나만의 AI 스피커 만들기
 
 ### Server
