@@ -1,4 +1,6 @@
-AI speaker
+my Own RasberryPI AI speaker
+
+
 ### Server
 - Listen request
 ### Client
